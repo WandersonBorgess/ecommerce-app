@@ -53,7 +53,7 @@ export default function SplashScreen() {
   return (
     <View style={{ flex: 1, justifyContent: 'center' }}>
       {/* Header */}
-      <View style={{ flexDirection: 'row', justifyContent: 'space-between', top: 32, paddingHorizontal: 16, position: 'absolute', width: '100%' }}>
+      <View style={{ flexDirection: 'row', justifyContent: 'space-between', top: 40, paddingHorizontal: 16, position: 'absolute', width: '100%' }}>
         <View style={{ flexDirection: 'row', alignItems: 'center' }}>
           <Text>{currentStep + 1}</Text>
           <Text style={{ color: 'rgba(0,0,0,0.5)' }}> / {items.length}</Text>
