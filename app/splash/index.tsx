@@ -5,7 +5,8 @@ import { useState } from 'react';
 import { Text, TouchableOpacity, View } from "react-native";
 
 const productImage = Asset.fromModule(require('@/assets/images/fashion-shop-1.png')).uri;
-
+const saleImage = Asset.fromModule(require('@/assets/images/sale-consulting.png')).uri;
+const shoppingBagImage = Asset.fromModule(require('@/assets/images/shopping-bag.png')).uri;
 interface SplashScreenProps {
   image: string,
   title: string,
@@ -19,15 +20,15 @@ export default function SplashScreen() {
     {
       image: productImage,
       title: 'Escolha Produtos',
-      description: 'Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.'
+      description: 'Escolha os melhores produtos na loja.'
     },
     {
-      image: productImage,
+      image: saleImage,
       title: 'Adicione ao Carrinho',
-      description: 'Velit officia consequat duis enim velit mollit.'
+      description: 'Adicione ao carrinho agora mesmo.'
     },
     {
-      image: productImage,
+      image: shoppingBagImage,
       title: 'Receba em Casa',
       description: 'Receba tudo no conforto da sua casa.'
     }
