@@ -59,7 +59,7 @@ export default function SplashScreen() {
           <Text style={{ color: 'rgba(0,0,0,0.5)' }}> / {items.length}</Text>
         </View>
         <TouchableOpacity onPress={skipToLogin}>
-          <Text style={{ color: '#ff3366' }}>Skip</Text>
+          <Text style={{ color: '#ff3366' }}>Pular</Text>
         </TouchableOpacity>
       </View>
 
@@ -98,7 +98,7 @@ export default function SplashScreen() {
         </View>
 
         <TouchableOpacity onPress={goToNext}>
-          <Text style={{ color: '#FF3366', fontWeight: 'bold', fontSize: 16 }}>Next</Text>
+          <Text style={{ color: '#FF3366', fontWeight: 'bold', fontSize: 16 }}>Próximo</Text>
         </TouchableOpacity>
       </View>
 
